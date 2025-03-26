@@ -18,5 +18,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
 cd auto-cpufreq && sudo ./auto-cpufreq-installer
+apt-get install bluetooth bluez -y
 
 sudo auto-cpufreq --install
